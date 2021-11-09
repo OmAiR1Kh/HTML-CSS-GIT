@@ -1,1 +1,17 @@
 /* Add your own CSS code below */
+.countries{
+    display: flex;
+}
+.countries--first{
+    flex-direction: row-reverse;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+.countries--second{
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.countries--third{
+    flex-direction: column-reverse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
