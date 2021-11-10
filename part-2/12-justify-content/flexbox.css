@@ -2,8 +2,24 @@
   display: flex;
 }
 
+.countries--second{
+  justify-content: space-around;
+}
+
+.countries--third{
+  flex-direction: column;
+  justify-content: end;
+}
+
 .countries--second .country {
   padding: 0.5em;
+}
+.countries--first{
+  justify-content: right;
+}
+.countries--fourth{
+  flex-direction: column-reverse;
+  justify-content: space-between;
 }
 
 /* Add your own CSS code below */
