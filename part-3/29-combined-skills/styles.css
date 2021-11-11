@@ -23,16 +23,19 @@
 .main-nav__list-item{
     margin-right: 7rem;
 }
-.views{
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-}
-.view-list__item{
-    margin-left: 15px;
-}
-.views__all{
-    margin-left: auto;
+@media only screen and (min-width: 767px) {
+    
+    .views{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    }
+    .view-list__item{
+        margin-left: 15px;
+    }
+    .views__all{
+        margin-left: auto;
+    }
 }
 .branches{
     display: flex;
